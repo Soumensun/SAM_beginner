@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Model Checkpoints (files > 100MB must not be pushed to GitHub)
+*.pth
+checkpoint/
+our_sam_loaded.pth
+
+# Image files generated during test/inference runs
+dummy_input.png
+output_visualization.png
+
+# IDE configurations
+.vscode/
+.idea/
+.project
+.pydevproject
+.settings/
